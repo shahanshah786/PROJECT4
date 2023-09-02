@@ -1,0 +1,15 @@
+.outer {
+    position: absolute;
+    width: 20vw;
+    height: 50vh;
+    margin-top: 30vh;
+    margin-left: 15vw;
+    transition: transform 0.6s;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right, rgb(50,164,168), rgb(50,168,91));
+}
+
+.outer:hover {
+    transform: translateY(-20px);
+}
